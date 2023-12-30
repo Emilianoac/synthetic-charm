@@ -5,7 +5,7 @@ const setHomeStyle = () => {
   document.documentElement.style.setProperty('--color-musico-1', "#242424")
   document.documentElement.style.setProperty('--color-musico-2', "#242424")
   document.documentElement.style.setProperty('--bg-image', `url()`)
-  document.title = "Synthetic Charm | Artificial muisician profiles"
+  document.title = "Synthetic Charm | Artificial musician profiles"
 
   let metaThemeColor = document.querySelector<HTMLMetaElement>("meta[name=theme-color]")
   if (metaThemeColor) metaThemeColor.setAttribute("content", "#242424")
